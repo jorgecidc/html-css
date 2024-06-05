@@ -1,0 +1,22 @@
+<!DOCTYPE employees SYSTEM "employees.dtd">
+<employees>
+    <emmployee>
+        <id>1</id>
+        <firstName>Tom</firstName>
+        <lastName>Cruise</lastName>
+        <photo>sp</photo>
+    </emmployee>
+    <emmployee>
+        <id>2</id>
+        <firstName>Maria</firstName>
+        <lastName>Sharapova</lastName>
+        <photo>40</photo>
+    </emmployee>
+    <emmployee>
+        <id>3</id>
+        <firstName>James</firstName>
+        <lastName>Bond</lastName>
+        <photo>nan</photo>
+    </emmployee>
+
+</employees>

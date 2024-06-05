@@ -1,0 +1,13 @@
+<!ELEMENT existencias (fecha,hora,producto+)>
+<!ELEMENT fecha (dia,mes,anno)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT anno (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+<!ELEMENT producto (sku,nombre,stock)>
+<!ELEMENT sku (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT stock (actual,minimo,maximo)>
+<!ELEMENT actual (#PCDATA)>
+<!ELEMENT minimo (#PCDATA)>
+<!ELEMENT maximo (#PCDATA)>

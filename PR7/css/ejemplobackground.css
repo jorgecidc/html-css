@@ -1,0 +1,69 @@
+body{
+    background-color: lightgray;
+    background-image: url(./../img/bolagiratoria.gif);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-attachment: fixed;
+}
+h1{
+    border: 2px solid red;
+    color: grey;
+    font-size: 15px;
+}
+p:nth-of-type(1){
+    border: 20px red outset;
+    color: red;
+    text-align: center;
+    padding: 40px 0px;
+    background-color: blue;
+    background-image: url(../img/fondo1.gif);
+    background-repeat: repeat-x;
+    background-position: center;
+    margin-bottom: 0px;
+}
+p:nth-of-type(2){
+    border: 3px blue solid;
+    margin-top: 0px;
+}
+p:nth-of-type(2) > span{
+    color: magenta;
+    background-color: lightgreen;
+    border: 2px red dotted;
+}
+#caja1{
+    border: dotted 5px green;
+    background-image: url(../img/pintado1.jpg);
+    width: 300px;
+    height: 200px;
+    background-attachment: fixed;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#caja2{
+    border: 5px solid blue;
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    background-image: url(../img/fondo1.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#caja2:hover{
+    background-repeat: repeat;
+    cursor: pointer;
+}
+#subrayado{
+    border-bottom: 5px double red;
+}
+#cajaVerde{
+    border: 5px solid lightgreen;
+}
+#subrayadoAzul{
+    border-bottom: 5px dotted blue;
+}
+p:nth-of-type(4){
+    border: 5px solid darkblue;
+    background-color: lightblue;
+    color: darkblue;
+}

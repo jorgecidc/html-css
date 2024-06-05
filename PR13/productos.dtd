@@ -1,0 +1,6 @@
+<!ELEMENT productos_tienda (producto+)>
+<!ELEMENT producto (cantidad,precio,maxima_ganancia)>
+<!ATTLIST producto nombre CDATA #REQUIRED>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT maxima_ganancia (#PCDATA)>

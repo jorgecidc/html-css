@@ -1,0 +1,803 @@
+{
+	"horario": {
+		"nombre": "IES VALLE DEL JERTE",
+		"url": "https://iesvallejertepla.educarex.es/",
+		"grupo": [
+			{
+				"denominacion": "1ºASIR",
+				"nombre_grado": "administracion de sistemas informaticos en red",
+				"asignatura": [
+					{
+						"nombre": "implantacion de sistemas operativos",
+						"abreviatura": "ISO",
+						"profesor": "antonio berrocal",
+						"horas": "224h"
+					},
+					{
+						"nombre": "planificacion y administracion de redes",
+						"abreviatura": "PARE",
+						"profesor": "marian valdera",
+						"horas": "224h"
+					},
+					{
+						"nombre": "fundamentos de hardware",
+						"abreviatura": "FHW",
+						"profesor": "fernando torrecilla",
+						"horas": "96h"
+					},
+					{
+						"nombre": "gestion de base de datos",
+						"abreviatura": "GBD",
+						"profesor": "marcos fernandez",
+						"horas": "192h"
+					},
+					{
+						"nombre": "lenguaje de marca y sistemas gestion de inf",
+						"abreviatura": "LMSGI",
+						"profesor": "antonio berrocal",
+						"horas": "128h"
+					},
+					{
+						"nombre": "formacion y orientacion laboral",
+						"abreviatura": "FOL",
+						"profesor": "fatima hontiveros",
+						"horas": "96h"
+					}
+				],
+				"tutor": "fatima hontiveros almaraz",
+				"dia": [
+					{
+						"nombre": "lunes",
+						"hora": [
+							{
+								"numero": "1",
+								"hora_ini": "15:20",
+								"hora-fin": "16:15",
+								"modulo": "ISO"
+							},
+							{
+								"numero": "2",
+								"hora_ini": "16:15",
+								"hora-fin": "17:10",
+								"modulo": "LMSGI"
+							},
+							{
+								"numero": "3",
+								"hora_ini": "17:10",
+								"hora-fin": "18:05",
+								"modulo": "FOL"
+							},
+							{
+								"recreo": "18:05-18:25"
+							},
+							{
+								"numero": "4",
+								"hora_ini": "18:25",
+								"hora-fin": "19:20",
+								"modulo": "GBD"
+							},
+							{
+								"numero": "5",
+								"hora_ini": "19:20",
+								"hora-fin": "20:15",
+								"modulo": "GBD"
+							},
+							{
+								"numero": "6",
+								"hora_ini": "20:15",
+								"hora-fin": "21:10",
+								"modulo": "PARE"
+							}
+						]
+					},
+					{
+						"nombre": "martes",
+						"hora": [
+							{
+								"numero": "1",
+								"hora_ini": "15:20",
+								"hora-fin": "16:15",
+								"modulo": "GBD"
+							},
+							{
+								"numero": "2",
+								"hora_ini": "16:15",
+								"hora-fin": "17:10",
+								"modulo": "FHW"
+							},
+							{
+								"numero": "3",
+								"hora_ini": "17:10",
+								"hora-fin": "18:05",
+								"modulo": "PARE"
+							},
+							{
+								"recreo": "18:05-18:25"
+							},
+							{
+								"numero": "4",
+								"hora_ini": "18:25",
+								"hora-fin": "19:20",
+								"modulo": "LMSGI-TUTORIA"
+							},
+							{
+								"numero": "5",
+								"hora_ini": "19:20",
+								"hora-fin": "20:15",
+								"modulo": "ISO"
+							},
+							{
+								"numero": "6",
+								"hora_ini": "20:15",
+								"hora-fin": "21:10",
+								"modulo": "ISO"
+							}
+						]
+					},
+					{
+						"nombre": "miercoles",
+						"hora": [
+							{
+								"numero": "1",
+								"hora_ini": "15:20",
+								"hora-fin": "16:15",
+								"modulo": "PARE"
+							},
+							{
+								"numero": "2",
+								"hora_ini": "16:15",
+								"hora-fin": "17:10",
+								"modulo": "GBD"
+							},
+							{
+								"numero": "3",
+								"hora_ini": "17:10",
+								"hora-fin": "18:05",
+								"modulo": "ISO"
+							},
+							{
+								"recreo": "18:05-18:25"
+							},
+							{
+								"numero": "4",
+								"hora_ini": "18:25",
+								"hora-fin": "19:20",
+								"modulo": "LMSGI"
+							},
+							{
+								"numero": "5",
+								"hora_ini": "19:20",
+								"hora-fin": "20:15",
+								"modulo": "FOL"
+							},
+							{
+								"numero": "6",
+								"hora_ini": "20:15",
+								"hora-fin": "21:10",
+								"modulo": "FOL"
+							}
+						]
+					},
+					{
+						"nombre": "jueves",
+						"hora": [
+							{
+								"numero": "1",
+								"hora_ini": "15:20",
+								"hora-fin": "16:15",
+								"modulo": "ISO"
+							},
+							{
+								"numero": "2",
+								"hora_ini": "16:15",
+								"hora-fin": "17:10",
+								"modulo": "ISO"
+							},
+							{
+								"numero": "3",
+								"hora_ini": "17:10",
+								"hora-fin": "18:05",
+								"modulo": "LMSGI"
+							},
+							{
+								"recreo": "18:05-18:25"
+							},
+							{
+								"numero": "4",
+								"hora_ini": "18:25",
+								"hora-fin": "19:20",
+								"modulo": "GBD"
+							},
+							{
+								"numero": "5",
+								"hora_ini": "19:20",
+								"hora-fin": "20:15",
+								"modulo": "PARE"
+							},
+							{
+								"numero": "6",
+								"hora_ini": "20:15",
+								"hora-fin": "21:10",
+								"modulo": "PARE"
+							}
+						]
+					},
+					{
+						"nombre": "viernes",
+						"hora": [
+							{
+								"numero": "1",
+								"hora_ini": "15:20",
+								"hora-fin": "16:15",
+								"modulo": "FHW"
+							},
+							{
+								"numero": "2",
+								"hora_ini": "16:15",
+								"hora-fin": "17:10",
+								"modulo": "FHW"
+							},
+							{
+								"numero": "3",
+								"hora_ini": "17:10",
+								"hora-fin": "18:05",
+								"modulo": "PARE"
+							},
+							{
+								"recreo": "18:05-18:25"
+							},
+							{
+								"numero": "4",
+								"hora_ini": "18:25",
+								"hora-fin": "19:20",
+								"modulo": "PARE"
+							},
+							{
+								"numero": "5",
+								"hora_ini": "19:20",
+								"hora-fin": "20:15",
+								"modulo": "ISO"
+							},
+							{
+								"numero": "6",
+								"hora_ini": "20:15",
+								"hora-fin": "21:10",
+								"modulo": "GBD"
+							}
+						]
+					}
+				]
+			},
+			{
+				"denominacion": "1ºDAM",
+				"nombre_grado": "desarrollo de aplicaciones multiplataforma",
+				"asignatura": [
+					{
+						"nombre": "sistemas informaticos",
+						"abreviatura": "SSINF",
+						"profesor": "julio barbero",
+						"horas": "192h"
+					},
+					{
+						"nombre": "bases de datos",
+						"abreviatura": "BBDD",
+						"profesor": "puerto cruz",
+						"horas": "192h"
+					},
+					{
+						"nombre": "programacion",
+						"abreviatura": "PGRMC",
+						"profesor": "enrique pineda",
+						"horas": "224h"
+					},
+					{
+						"nombre": "entornos de desarrollo",
+						"abreviatura": "ENTDL",
+						"profesor": "marcos fernandez",
+						"horas": "128h"
+					},
+					{
+						"nombre": "lenguaje de marca y sistemas gestion de inf",
+						"abreviatura": "LMSGI",
+						"profesor": "antonio berrocal",
+						"horas": "128h"
+					},
+					{
+						"nombre": "formacion y orientacion laboral",
+						"abreviatura": "FOL",
+						"profesor": "fatima hontiveros",
+						"horas": "96h"
+					}
+				],
+				"tutor": "puerto cruz mateos",
+				"dia": [
+					{
+						"nombre": "lunes",
+						"hora": [
+							{
+								"numero": "1",
+								"hora_ini": "15:20",
+								"hora-fin": "16:15",
+								"modulo": "FOL"
+							},
+							{
+								"numero": "2",
+								"hora_ini": "16:15",
+								"hora-fin": "17:10",
+								"modulo": "FOL"
+							},
+							{
+								"numero": "3",
+								"hora_ini": "17:10",
+								"hora-fin": "18:05",
+								"modulo": "ENTDL"
+							},
+							{
+								"recreo": "18:05-18:25"
+							},
+							{
+								"numero": "4",
+								"hora_ini": "18:25",
+								"hora-fin": "19:20",
+								"modulo": "PGRMC"
+							},
+							{
+								"numero": "5",
+								"hora_ini": "19:20",
+								"hora-fin": "20:15",
+								"modulo": "BBDD"
+							},
+							{
+								"numero": "6",
+								"hora_ini": "20:15",
+								"hora-fin": "21:10",
+								"modulo": "SSINF"
+							}
+						]
+					},
+					{
+						"nombre": "martes",
+						"hora": [
+							{
+								"numero": "1",
+								"hora_ini": "15:20",
+								"hora-fin": "16:15",
+								"modulo": "BBDD"
+							},
+							{
+								"numero": "2",
+								"hora_ini": "16:15",
+								"hora-fin": "17:10",
+								"modulo": "BBDD"
+							},
+							{
+								"numero": "3",
+								"hora_ini": "17:10",
+								"hora-fin": "18:05",
+								"modulo": "LMSGI"
+							},
+							{
+								"recreo": "18:05-18:25"
+							},
+							{
+								"numero": "4",
+								"hora_ini": "18:25",
+								"hora-fin": "19:20",
+								"modulo": "PGRMC"
+							},
+							{
+								"numero": "5",
+								"hora_ini": "19:20",
+								"hora-fin": "20:15",
+								"modulo": "PGRMC"
+							},
+							{
+								"numero": "6",
+								"hora_ini": "20:15",
+								"hora-fin": "21:10",
+								"modulo": "SSINF"
+							}
+						]
+					},
+					{
+						"nombre": "miercoles",
+						"hora": [
+							{
+								"numero": "1",
+								"hora_ini": "15:20",
+								"hora-fin": "16:15",
+								"modulo": "ENTDL"
+							},
+							{
+								"numero": "2",
+								"hora_ini": "16:15",
+								"hora-fin": "17:10",
+								"modulo": "LMSGI"
+							},
+							{
+								"numero": "3",
+								"hora_ini": "17:10",
+								"hora-fin": "18:05",
+								"modulo": "BBDD"
+							},
+							{
+								"recreo": "18:05-18:25"
+							},
+							{
+								"numero": "4",
+								"hora_ini": "18:25",
+								"hora-fin": "19:20",
+								"modulo": "BBDD"
+							},
+							{
+								"numero": "5",
+								"hora_ini": "19:20",
+								"hora-fin": "20:15",
+								"modulo": "PGRMC"
+							},
+							{
+								"numero": "6",
+								"hora_ini": "20:15",
+								"hora-fin": "21:10",
+								"modulo": "PGRMC"
+							}
+						]
+					},
+					{
+						"nombre": "jueves",
+						"hora": [
+							{
+								"numero": "1",
+								"hora_ini": "15:20",
+								"hora-fin": "16:15",
+								"modulo": "ENTDL"
+							},
+							{
+								"numero": "2",
+								"hora_ini": "16:15",
+								"hora-fin": "17:10",
+								"modulo": "BBDD"
+							},
+							{
+								"numero": "3",
+								"hora_ini": "17:10",
+								"hora-fin": "18:05",
+								"modulo": "SSINF"
+							},
+							{
+								"recreo": "18:05-18:25"
+							},
+							{
+								"numero": "4",
+								"hora_ini": "18:25",
+								"hora-fin": "19:20",
+								"modulo": "SSINF"
+							},
+							{
+								"numero": "5",
+								"hora_ini": "19:20",
+								"hora-fin": "20:15",
+								"modulo": "FOL"
+							},
+							{
+								"numero": "6",
+								"hora_ini": "20:15",
+								"hora-fin": "21:10",
+								"modulo": "LMSGI"
+							}
+						]
+					},
+					{
+						"nombre": "viernes",
+						"hora": [
+							{
+								"numero": "1",
+								"hora_ini": "15:20",
+								"hora-fin": "16:15",
+								"modulo": "SSINF"
+							},
+							{
+								"numero": "2",
+								"hora_ini": "16:15",
+								"hora-fin": "17:10",
+								"modulo": "SSINF"
+							},
+							{
+								"numero": "3",
+								"hora_ini": "17:10",
+								"hora-fin": "18:05",
+								"modulo": "ENTDL"
+							},
+							{
+								"recreo": "18:05-18:25"
+							},
+							{
+								"numero": "4",
+								"hora_ini": "18:25",
+								"hora-fin": "19:20",
+								"modulo": "LMSGI"
+							},
+							{
+								"numero": "5",
+								"hora_ini": "19:20",
+								"hora-fin": "20:15",
+								"modulo": "PGRMC"
+							},
+							{
+								"numero": "6",
+								"hora_ini": "20:15",
+								"hora-fin": "21:10",
+								"modulo": "PGRMC"
+							}
+						]
+					}
+				]
+			},
+			{
+				"denominacion": "1ºDAW",
+				"nombre_grado": "desarrollo de aplicaciones web",
+				"asignatura": [
+					{
+						"nombre": "sistemas informaticos",
+						"abreviatura": "SSINF",
+						"profesor": "julio barbero",
+						"horas": "192h"
+					},
+					{
+						"nombre": "bases de datos",
+						"abreviatura": "BBDD",
+						"profesor": "puerto cruz",
+						"horas": "192h"
+					},
+					{
+						"nombre": "programacion",
+						"abreviatura": "PGRMC",
+						"profesor": "enrique pineda",
+						"horas": "224h"
+					},
+					{
+						"nombre": "entornos de desarrollo",
+						"abreviatura": "ENTDL",
+						"profesor": "marcos fernandez",
+						"horas": "128h"
+					},
+					{
+						"nombre": "lenguaje de marca y sistemas gestion de inf",
+						"abreviatura": "LMSGI",
+						"profesor": "antonio berrocal",
+						"horas": "128h"
+					},
+					{
+						"nombre": "formacion y orientacion laboral",
+						"abreviatura": "FOL",
+						"profesor": "fatima hontiveros",
+						"horas": "96h"
+					}
+				],
+				"tutor": "marta perez",
+				"dia": [
+					{
+						"nombre": "lunes",
+						"hora": [
+							{
+								"numero": "1",
+								"hora_ini": "15:20",
+								"hora-fin": "16:15",
+								"modulo": "FOL"
+							},
+							{
+								"numero": "2",
+								"hora_ini": "16:15",
+								"hora-fin": "17:10",
+								"modulo": "SSINF"
+							},
+							{
+								"numero": "3",
+								"hora_ini": "17:10",
+								"hora-fin": "18:05",
+								"modulo": "SSINF"
+							},
+							{
+								"recreo": "18:05-18:25"
+							},
+							{
+								"numero": "4",
+								"hora_ini": "18:25",
+								"hora-fin": "19:20",
+								"modulo": "LMSGI"
+							},
+							{
+								"numero": "5",
+								"hora_ini": "19:20",
+								"hora-fin": "20:15",
+								"modulo": "PGRMC"
+							},
+							{
+								"numero": "6",
+								"hora_ini": "20:15",
+								"hora-fin": "21:10",
+								"modulo": "PGRMC"
+							}
+						]
+					},
+					{
+						"nombre": "martes",
+						"hora": [
+							{
+								"numero": "1",
+								"hora_ini": "15:20",
+								"hora-fin": "16:15",
+								"modulo": "FOL"
+							},
+							{
+								"numero": "2",
+								"hora_ini": "16:15",
+								"hora-fin": "17:10",
+								"modulo": "FOL"
+							},
+							{
+								"numero": "3",
+								"hora_ini": "17:10",
+								"hora-fin": "18:05",
+								"modulo": "BBDD"
+							},
+							{
+								"recreo": "18:05-18:25"
+							},
+							{
+								"numero": "4",
+								"hora_ini": "18:25",
+								"hora-fin": "19:20",
+								"modulo": "BBDD"
+							},
+							{
+								"numero": "5",
+								"hora_ini": "19:20",
+								"hora-fin": "20:15",
+								"modulo": "SSINF"
+							},
+							{
+								"numero": "6",
+								"hora_ini": "20:15",
+								"hora-fin": "21:10",
+								"modulo": "PGRMC"
+							}
+						]
+					},
+					{
+						"nombre": "miercoles",
+						"hora": [
+							{
+								"numero": "1",
+								"hora_ini": "15:20",
+								"hora-fin": "16:15",
+								"modulo": "LMSGI"
+							},
+							{
+								"numero": "2",
+								"hora_ini": "16:15",
+								"hora-fin": "17:10",
+								"modulo": "PGRMC"
+							},
+							{
+								"numero": "3",
+								"hora_ini": "17:10",
+								"hora-fin": "18:05",
+								"modulo": "PGRMC"
+							},
+							{
+								"recreo": "18:05-18:25"
+							},
+							{
+								"numero": "4",
+								"hora_ini": "18:25",
+								"hora-fin": "19:20",
+								"modulo": "SSINF"
+							},
+							{
+								"numero": "5",
+								"hora_ini": "19:20",
+								"hora-fin": "20:15",
+								"modulo": "BBDD"
+							},
+							{
+								"numero": "6",
+								"hora_ini": "20:15",
+								"hora-fin": "21:10",
+								"modulo": "BBDD"
+							}
+						]
+					},
+					{
+						"nombre": "jueves",
+						"hora": [
+							{
+								"numero": "1",
+								"hora_ini": "15:20",
+								"hora-fin": "16:15",
+								"modulo": "BBDD"
+							},
+							{
+								"numero": "2",
+								"hora_ini": "16:15",
+								"hora-fin": "17:10",
+								"modulo": "ENTDL"
+							},
+							{
+								"numero": "3",
+								"hora_ini": "17:10",
+								"hora-fin": "18:05",
+								"modulo": "ENTDL"
+							},
+							{
+								"recreo": "18:05-18:25"
+							},
+							{
+								"numero": "4",
+								"hora_ini": "18:25",
+								"hora-fin": "19:20",
+								"modulo": "LMSGI"
+							},
+							{
+								"numero": "5",
+								"hora_ini": "19:20",
+								"hora-fin": "20:15",
+								"modulo": "SSINF"
+							},
+							{
+								"numero": "6",
+								"hora_ini": "20:15",
+								"hora-fin": "21:10",
+								"modulo": "SSINF"
+							}
+						]
+					},
+					{
+						"nombre": "viernes",
+						"hora": [
+							{
+								"numero": "1",
+								"hora_ini": "15:20",
+								"hora-fin": "16:15",
+								"modulo": "BBDD"
+							},
+							{
+								"numero": "2",
+								"hora_ini": "16:15",
+								"hora-fin": "17:10",
+								"modulo": "PGRMC"
+							},
+							{
+								"numero": "3",
+								"hora_ini": "17:10",
+								"hora-fin": "18:05",
+								"modulo": "PGRMC"
+							},
+							{
+								"recreo": "18:05-18:25"
+							},
+							{
+								"numero": "4",
+								"hora_ini": "18:25",
+								"hora-fin": "19:20",
+								"modulo": "ENTDL"
+							},
+							{
+								"numero": "5",
+								"hora_ini": "19:20",
+								"hora-fin": "20:15",
+								"modulo": "ENTDL"
+							},
+							{
+								"numero": "6",
+								"hora_ini": "20:15",
+								"hora-fin": "21:10",
+								"modulo": "LMSGI"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

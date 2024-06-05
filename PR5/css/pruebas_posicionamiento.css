@@ -1,0 +1,46 @@
+body>div{
+    border: 5px solid black;
+}
+div div{
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    display: inline-block;
+    font-size: 50px;
+}
+div>div:nth-child(1){
+    background-color: aquamarine;
+}
+div>div:nth-child(2){
+    background-color: green;
+    position: relative;/* 1. */
+    top: 100px;
+    left: 200px;
+}
+div>div:nth-child(3){
+    background-color: blue;
+}
+div>div:nth-child(4){
+    background-color: yellow;
+}
+div>div:nth-child(5){
+    background-color: pink;
+    position: absolute;/* 2. */
+    top: 0px;
+    right: 0px;
+}
+div>div:nth-child(6){
+    background-color: brown;
+    position: fixed;/* 3. */
+    top: 0;
+    left: 0;
+}
+h1{
+    background-color: grey;
+    position: sticky;/* 4. */
+    top: 10px;
+}
+/*1. El postion: relative hace que algo no este en el flujo normal pero no cambia nada, con top left right y bootom lo puedo mover a donde quiera pero no pierde el sitio que tenia*/
+/*2. El position: absoluto hace que la caja pierda su sitio, es decir, para el resto de elementos no existe, dandole top, right bootom y left lo puedo mover con respecto a la esquina que quiera. La cordenada 0, 0 del position absoluto es BODY. Con la propiedad relative puedo cambiar el eje de cordenadas dandole al ancestro el relative.*/
+/*3. El fixed nos permite que cunado hagamos scroll no se mueva*/
+/*4. Cuando llega a la altura del position sticky se vuelve fixed y va junto al scroll*/

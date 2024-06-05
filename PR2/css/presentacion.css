@@ -1,0 +1,109 @@
+/* GENERAL */
+body {
+    margin: 0;
+    overflow: hidden;
+}
+div.container {
+    height: 100vh;
+    width: 100vw;
+}
+/* ESTILOS PARA EL LOGO */
+div.logo {
+    background-color: black;
+    width: max-content;
+    transform: skewX(-8deg);
+    position: absolute; 
+    top: 20px;
+    left: 150px;
+    z-index: 30;
+    box-shadow: 0px 1px 7px 5px #FFFF;
+}
+:is(h1, h2) {
+    text-align: center;
+}
+div.logo h1 {
+    color: white;
+    font-size: 50px;
+    margin: 0;
+    background-color: green;
+    border-bottom: 10px solid white;
+    padding: 5px 55px 5px 55px;
+    animation-name: extremadura;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+div.logo h2 {
+    margin: 0;
+    padding-top: 20px;
+    padding: 20px 55px 10px 55px;
+    animation-name: hospederias;
+    animation-timing-function: ease-out;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+div.logo h2 a {
+    text-decoration: none;
+    color: white;
+}
+/* ESTILOS PARA EL VÍDEO */
+video {
+    position: absolute;
+    object-fit: cover;
+    height: 100vh;
+    width: 100vw;
+}
+/* TRANSPARENCIA */
+div.transparencia {
+    background-color: #cd9557;
+    opacity: 0.5;
+    position: absolute;
+    object-fit: cover;
+    height: 100vh;
+    width: 100vw;
+    z-index: 2;
+    left: 0px;
+}
+/* EFECTO SOBRE LA TRANSPARENCIA */
+div.logo:hover~div.transparencia {
+    opacity: 0.1;
+    left: 100%;
+    transition: opacity 2s, left 3s ease-out;
+}
+/* ANIMACIÓN LOGO */
+@keyframes extremadura {
+    0% {
+        transform: translateX(-550px);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+@keyframes hospederias {
+    0% {
+        transform: translateX(850px);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+/* MEDIA QUERY */
+@media (max-width: 575.98px) {
+    .container>div.logo {
+        width: 80%;
+        min-width: 375px;
+        margin: 30px auto auto 50px;
+    }
+    .container>div.logo h1 {
+        font-size: 50px;
+    }
+}
+/* MAPA */
+div.mapa {
+    position: absolute;
+    z-index: 3;
+}

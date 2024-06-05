@@ -1,0 +1,18 @@
+:link {
+    color: pink;
+}
+a.noticia:visited {
+    color: orange;
+}
+h1:active{
+    color: yellow;
+}
+li:hover{
+    color: red;
+}
+::first-letter{
+    color: green;
+}
+::first-line{
+    color: blue;
+}

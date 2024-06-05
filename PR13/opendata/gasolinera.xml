@@ -1,0 +1,148 @@
+<sparql>
+ <head>
+  <variable name="uri"/>
+  <variable name="geo_long"/>
+  <variable name="geo_lat"/>
+  <variable name="nombre"/>
+  <variable name="nucleo"/>
+  <variable name="tieneEnlaceSIG"/>
+ </head>
+ <results distinct="false" ordered="true">
+  <result>
+   <binding name="uri"><uri>http://opendata.caceres.es/recurso/transporte/gasolineras/Gasolinera/1-estacion-de-servicio-carrefour</uri></binding>
+   <binding name="geo_long"><literal datatype="http://www.w3.org/2001/XMLSchema#double">-6.39641</literal></binding>
+   <binding name="geo_lat"><literal datatype="http://www.w3.org/2001/XMLSchema#double">39.4681</literal></binding>
+   <binding name="nombre"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Estacion de Servicio Carrefour</literal></binding>
+   <binding name="nucleo"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Caceres </literal></binding>
+   <binding name="tieneEnlaceSIG"><literal datatype="http://www.w3.org/2001/XMLSchema#string">https://sig.caceres.es/serweb/fichasig/fichatoponimia.php?mslink=1885 </literal></binding>
+  </result>
+  <result>
+   <binding name="uri"><uri>http://opendata.caceres.es/recurso/transporte/gasolineras/Gasolinera/10-estacion-de-servicio-galp-ctra-de-medellin-ii</uri></binding>
+   <binding name="geo_long"><literal datatype="http://www.w3.org/2001/XMLSchema#double">-6.34849</literal></binding>
+   <binding name="geo_lat"><literal datatype="http://www.w3.org/2001/XMLSchema#double">39.4428</literal></binding>
+   <binding name="nombre"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Estacion de Servicio Galp Ctra. de Medellin II</literal></binding>
+   <binding name="nucleo"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Caceres </literal></binding>
+   <binding name="tieneEnlaceSIG"><literal datatype="http://www.w3.org/2001/XMLSchema#string">https://sig.caceres.es/serweb/fichasig/fichatoponimia.php?mslink=1891 </literal></binding>
+  </result>
+  <result>
+   <binding name="uri"><uri>http://opendata.caceres.es/recurso/transporte/gasolineras/Gasolinera/11-estacion-de-servicio-shell-ctra-de-medellin-i</uri></binding>
+   <binding name="geo_long"><literal datatype="http://www.w3.org/2001/XMLSchema#double">-6.3656</literal></binding>
+   <binding name="geo_lat"><literal datatype="http://www.w3.org/2001/XMLSchema#double">39.4534</literal></binding>
+   <binding name="nombre"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Estacion de Servicio Shell Ctra. de Medellin I</literal></binding>
+   <binding name="nucleo"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Caceres </literal></binding>
+   <binding name="tieneEnlaceSIG"><literal datatype="http://www.w3.org/2001/XMLSchema#string">https://sig.caceres.es/serweb/fichasig/fichatoponimia.php?mslink=1888 </literal></binding>
+  </result>
+  <result>
+   <binding name="uri"><uri>http://opendata.caceres.es/recurso/transporte/gasolineras/Gasolinera/12-estacion-de-servicio-cepsa-pasarón</uri></binding>
+   <binding name="geo_long"><literal datatype="http://www.w3.org/2001/XMLSchema#double">-6.38392</literal></binding>
+   <binding name="geo_lat"><literal datatype="http://www.w3.org/2001/XMLSchema#double">39.4537</literal></binding>
+   <binding name="nombre"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Estacion de Servicio Cepsa Pasarón</literal></binding>
+   <binding name="nucleo"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Caceres </literal></binding>
+   <binding name="tieneEnlaceSIG"><literal datatype="http://www.w3.org/2001/XMLSchema#string">https://sig.caceres.es/serweb/fichasig/fichatoponimia.php?mslink=1883 </literal></binding>
+  </result>
+  <result>
+   <binding name="uri"><uri>http://opendata.caceres.es/recurso/transporte/gasolineras/Gasolinera/13-estacion-de-servicio-surtidor-itv</uri></binding>
+   <binding name="geo_long"><literal datatype="http://www.w3.org/2001/XMLSchema#double">-6.37358</literal></binding>
+   <binding name="geo_lat"><literal datatype="http://www.w3.org/2001/XMLSchema#double">39.4381</literal></binding>
+   <binding name="nombre"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Estacion de Servicio Surtidor ITV</literal></binding>
+   <binding name="nucleo"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Caceres </literal></binding>
+   <binding name="tieneEnlaceSIG"><literal datatype="http://www.w3.org/2001/XMLSchema#string">https://sig.caceres.es/serweb/fichasig/fichatoponimia.php?mslink=1889 </literal></binding>
+  </result>
+  <result>
+   <binding name="uri"><uri>http://opendata.caceres.es/recurso/transporte/gasolineras/Gasolinera/14-estacion-de-servicio-iberdoex-las-capellanias</uri></binding>
+   <binding name="geo_long"><literal datatype="http://www.w3.org/2001/XMLSchema#double">-6.36978</literal></binding>
+   <binding name="geo_lat"><literal datatype="http://www.w3.org/2001/XMLSchema#double">39.4932</literal></binding>
+   <binding name="nombre"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Estacion de Servicio Iberdoex Las Capellanias</literal></binding>
+   <binding name="nucleo"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Caceres </literal></binding>
+   <binding name="tieneEnlaceSIG"><literal datatype="http://www.w3.org/2001/XMLSchema#string">https://sig.caceres.es/serweb/fichasig/fichatoponimia.php?mslink=10755 </literal></binding>
+  </result>
+  <result>
+   <binding name="uri"><uri>http://opendata.caceres.es/recurso/transporte/gasolineras/Gasolinera/15-estacion-de-servicio-petrocar-ronda-san-francisco</uri></binding>
+   <binding name="geo_long"><literal datatype="http://www.w3.org/2001/XMLSchema#double">-6.36728</literal></binding>
+   <binding name="geo_lat"><literal datatype="http://www.w3.org/2001/XMLSchema#double">39.4557</literal></binding>
+   <binding name="nombre"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Estacion de Servicio Petrocar Ronda San Francisco</literal></binding>
+   <binding name="nucleo"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Caceres </literal></binding>
+   <binding name="tieneEnlaceSIG"><literal datatype="http://www.w3.org/2001/XMLSchema#string">https://sig.caceres.es/serweb/fichasig/fichatoponimia.php?mslink=10756 </literal></binding>
+  </result>
+  <result>
+   <binding name="uri"><uri>http://opendata.caceres.es/recurso/transporte/gasolineras/Gasolinera/16-estación-de-servicio-petrol-gold</uri></binding>
+   <binding name="geo_long"><literal datatype="http://www.w3.org/2001/XMLSchema#double">-6.37007</literal></binding>
+   <binding name="geo_lat"><literal datatype="http://www.w3.org/2001/XMLSchema#double">34.4934</literal></binding>
+   <binding name="nombre"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Estación de Servicio Petrol Gold</literal></binding>
+   <binding name="nucleo"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Caceres </literal></binding>
+   <binding name="tieneEnlaceSIG"><literal datatype="http://www.w3.org/2001/XMLSchema#string">https://sig.caceres.es/serweb/fichasig/fichatoponimia.php?mslink=10754 </literal></binding>
+  </result>
+  <result>
+   <binding name="uri"><uri>http://opendata.caceres.es/recurso/transporte/gasolineras/Gasolinera/17-estación-de-servicio-q8-montesol</uri></binding>
+   <binding name="geo_long"><literal datatype="http://www.w3.org/2001/XMLSchema#double">0.0</literal></binding>
+   <binding name="geo_lat"><literal datatype="http://www.w3.org/2001/XMLSchema#double">0.0</literal></binding>
+   <binding name="nombre"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Estación de Servicio Q8 Montesol</literal></binding>
+   <binding name="nucleo"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Caceres </literal></binding>
+   <binding name="tieneEnlaceSIG"><literal datatype="http://www.w3.org/2001/XMLSchema#string">https://sig.caceres.es/serweb/fichasig/fichatoponimia.php?mslink=11165 </literal></binding>
+  </result>
+  <result>
+   <binding name="uri"><uri>http://opendata.caceres.es/recurso/transporte/gasolineras/Gasolinera/2-estacion-de-servicio-repsol-mirat</uri></binding>
+   <binding name="geo_long"><literal datatype="http://www.w3.org/2001/XMLSchema#double">-6.38253</literal></binding>
+   <binding name="geo_lat"><literal datatype="http://www.w3.org/2001/XMLSchema#double">39.4693</literal></binding>
+   <binding name="nombre"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Estacion de Servicio Repsol Mirat</literal></binding>
+   <binding name="nucleo"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Caceres </literal></binding>
+   <binding name="tieneEnlaceSIG"><literal datatype="http://www.w3.org/2001/XMLSchema#string">https://sig.caceres.es/serweb/fichasig/fichatoponimia.php?mslink=1886 </literal></binding>
+  </result>
+  <result>
+   <binding name="uri"><uri>http://opendata.caceres.es/recurso/transporte/gasolineras/Gasolinera/3-estacion-de-servicio-repsol-avda-de-alemania</uri></binding>
+   <binding name="geo_long"><literal datatype="http://www.w3.org/2001/XMLSchema#double">-6.38357</literal></binding>
+   <binding name="geo_lat"><literal datatype="http://www.w3.org/2001/XMLSchema#double">39.4621</literal></binding>
+   <binding name="nombre"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Estacion de Servicio Repsol Avda. de Alemania</literal></binding>
+   <binding name="nucleo"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Caceres </literal></binding>
+   <binding name="tieneEnlaceSIG"><literal datatype="http://www.w3.org/2001/XMLSchema#string">https://sig.caceres.es/serweb/fichasig/fichatoponimia.php?mslink=1887 </literal></binding>
+  </result>
+  <result>
+   <binding name="uri"><uri>http://opendata.caceres.es/recurso/transporte/gasolineras/Gasolinera/4-estacion-de-servicio-iberdoex-la-cabaña-ctra-badajoz</uri></binding>
+   <binding name="geo_long"><literal datatype="http://www.w3.org/2001/XMLSchema#double">-6.43568</literal></binding>
+   <binding name="geo_lat"><literal datatype="http://www.w3.org/2001/XMLSchema#double">39.3877</literal></binding>
+   <binding name="nombre"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Estacion de Servicio Iberdoex La Cabaña Ctra. Badajoz</literal></binding>
+   <binding name="nucleo"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Caceres </literal></binding>
+   <binding name="tieneEnlaceSIG"><literal datatype="http://www.w3.org/2001/XMLSchema#string">https://sig.caceres.es/serweb/fichasig/fichatoponimia.php?mslink=1890 </literal></binding>
+  </result>
+  <result>
+   <binding name="uri"><uri>http://opendata.caceres.es/recurso/transporte/gasolineras/Gasolinera/5-estacion-de-servicio-repsol-tuareg-valdesalor</uri></binding>
+   <binding name="geo_long"><literal datatype="http://www.w3.org/2001/XMLSchema#double">-6.34882</literal></binding>
+   <binding name="geo_lat"><literal datatype="http://www.w3.org/2001/XMLSchema#double">39.3833</literal></binding>
+   <binding name="nombre"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Estacion de Servicio Repsol Tuareg Valdesalor</literal></binding>
+   <binding name="nucleo"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Valdesalor </literal></binding>
+   <binding name="tieneEnlaceSIG"><literal datatype="http://www.w3.org/2001/XMLSchema#string">https://sig.caceres.es/serweb/fichasig/fichatoponimia.php?mslink=1892 </literal></binding>
+  </result>
+  <result>
+   <binding name="uri"><uri>http://opendata.caceres.es/recurso/transporte/gasolineras/Gasolinera/6-estacion-de-servicio-repsol-montebola</uri></binding>
+   <binding name="geo_long"><literal datatype="http://www.w3.org/2001/XMLSchema#double">-6.41825</literal></binding>
+   <binding name="geo_lat"><literal datatype="http://www.w3.org/2001/XMLSchema#double">39.4945</literal></binding>
+   <binding name="nombre"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Estacion de Servicio Repsol Montebola</literal></binding>
+   <binding name="nucleo"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Caceres </literal></binding>
+   <binding name="tieneEnlaceSIG"><literal datatype="http://www.w3.org/2001/XMLSchema#string">https://sig.caceres.es/serweb/fichasig/fichatoponimia.php?mslink=1894 </literal></binding>
+  </result>
+  <result>
+   <binding name="uri"><uri>http://opendata.caceres.es/recurso/transporte/gasolineras/Gasolinera/7-estacion-de-servicio-galp-ctra-trujillo</uri></binding>
+   <binding name="geo_long"><literal datatype="http://www.w3.org/2001/XMLSchema#double">-6.29636</literal></binding>
+   <binding name="geo_lat"><literal datatype="http://www.w3.org/2001/XMLSchema#double">39.4649</literal></binding>
+   <binding name="nombre"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Estacion de Servicio Galp Ctra. Trujillo</literal></binding>
+   <binding name="nucleo"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Caceres </literal></binding>
+   <binding name="tieneEnlaceSIG"><literal datatype="http://www.w3.org/2001/XMLSchema#string">https://sig.caceres.es/serweb/fichasig/fichatoponimia.php?mslink=1895 </literal></binding>
+  </result>
+  <result>
+   <binding name="uri"><uri>http://opendata.caceres.es/recurso/transporte/gasolineras/Gasolinera/8-estacion-de-servicio-repsol-ctra-malpartida</uri></binding>
+   <binding name="geo_long"><literal datatype="http://www.w3.org/2001/XMLSchema#double">-6.45364</literal></binding>
+   <binding name="geo_lat"><literal datatype="http://www.w3.org/2001/XMLSchema#double">39.456</literal></binding>
+   <binding name="nombre"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Estacion de Servicio Repsol Ctra. Malpartida</literal></binding>
+   <binding name="nucleo"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Caceres </literal></binding>
+   <binding name="tieneEnlaceSIG"><literal datatype="http://www.w3.org/2001/XMLSchema#string">https://sig.caceres.es/serweb/fichasig/fichatoponimia.php?mslink=1897 </literal></binding>
+  </result>
+  <result>
+   <binding name="uri"><uri>http://opendata.caceres.es/recurso/transporte/gasolineras/Gasolinera/9-estación-de-servicio-repsol-temis</uri></binding>
+   <binding name="geo_long"><literal datatype="http://www.w3.org/2001/XMLSchema#double">-6.36282</literal></binding>
+   <binding name="geo_lat"><literal datatype="http://www.w3.org/2001/XMLSchema#double">39.4818</literal></binding>
+   <binding name="nombre"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Estación de Servicio Repsol Temis</literal></binding>
+   <binding name="nucleo"><literal datatype="http://www.w3.org/2001/XMLSchema#string">Caceres </literal></binding>
+   <binding name="tieneEnlaceSIG"><literal datatype="http://www.w3.org/2001/XMLSchema#string">https://sig.caceres.es/serweb/fichasig/fichatoponimia.php?mslink=1898 </literal></binding>
+  </result>
+ </results>
+</sparql>

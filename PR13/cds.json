@@ -1,0 +1,20 @@
+{
+    "cds": {
+        "cd": [
+            {
+                "titulo": "yo minoria absoluita",
+                "artista": "extremoduro",
+                "anno": "2002",
+                "precio": "15",
+                "ncanciones": "10"
+             },
+             {
+                "titulo": "canciones que gemias tu",
+                "artista": "calenton",
+                "anno": "2017",
+                "precio": "12",
+                "ncanciones": "7"
+             }
+        ]
+    }
+}

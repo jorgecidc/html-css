@@ -1,0 +1,35 @@
+/* A */
+@media print{
+    a:not([href^="#"]):after{
+        content: " (" attr(href) ")";;
+    }
+}
+/* B */
+div.box{
+    background-color: blue;
+    box-shadow: red 0px 7px 29px 0px;
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+}
+/* C */
+.resize {
+    margin-top: 20px;
+    resize: both;
+    overflow: scroll;
+    border: 1px solid black;
+}
+/* D */
+div.transition{
+    margin-top: 20px;
+    width:483px;
+    height:298px;
+    background-color: black;
+    transition:all 2s ease;
+}
+.transition:hover{
+    border-radius:50%;
+    background-color: red;
+    box-shadow: inset 0 0 0 25px violet;
+}
+

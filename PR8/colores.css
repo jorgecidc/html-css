@@ -1,0 +1,52 @@
+
+        h1{
+            color: rgb(25, 25, 250);
+        }
+        h2{
+            color: red;
+        }
+        h3{
+            color: darkgreen;
+        }
+        p{
+            color: green;
+        }
+        abbr{
+            color: blueviolet;
+        }
+        cite{
+            color:deeppink;
+        }
+        blockquote{
+            color: aqua;
+        }
+        pre{
+            color: brown;
+        }
+        code{
+            color: darkgoldenrod;
+        }
+        div{
+            color: indianred;
+        }
+        samp{
+            color: mediumpurple;
+        }
+        dfn{
+            color: orchid;
+        }
+        var{
+            color: orangered;
+        }
+        address{
+            color: black;
+        }
+        sup{
+            color: seagreen;
+        }
+        sub{
+            color: peru;
+        }
+        body{
+            color: yellow;
+        }

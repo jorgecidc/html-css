@@ -1,0 +1,16 @@
+.icon.lupa-mas{
+    background-image: url(../img/ui-icons_444444_256x240.png);
+    border: 1px solid black;
+    height: 16px;
+    width: 16px;
+    margin: 10px;
+    background-position: -128px -112px;
+}
+.icon.lupa-menos {
+    background-image: url(../img/ui-icons_444444_256x240.png);
+    border: 1px solid black;
+    height: 16px;
+    width: 16px;
+    margin: 10px;
+    background-position: -144px -112px; 
+}

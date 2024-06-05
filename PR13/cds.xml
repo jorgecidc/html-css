@@ -1,0 +1,15 @@
+<!DOCTYPE catalogo_cd SYSTEM "cds.dtd">
+<catalogo_cd>
+    <disco titulo="yo minoria absoluta">
+        <artista>extremoduro</artista> 
+        <anno>2002</anno>       
+        <precio>15</precio>
+        <ncanciones>10</ncanciones>
+    </disco>
+    <disco titulo="canciones que gemias tu">
+        <artista>calenton</artista>
+        <anno>2017</anno>
+        <precio>12</precio>
+        <ncanciones>7</ncanciones>
+    </disco>
+</catalogo_cd>

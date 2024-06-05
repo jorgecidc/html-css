@@ -1,0 +1,40 @@
+div.video video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    height: 100vh;
+    width: 100vw;
+}
+div.texto{
+    background-color: #51748a94;
+    z-index: 10;
+    position: relative;
+    color: white; 
+    width: 30vw;
+    height: 80vh;
+    margin-left: calc(100vw - 500px);
+    overflow: auto;
+    padding: 20px;   
+}
+div.texto h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-stretch: 75%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+div.hipervinculo{
+    background-color: #7d97a673;
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+    width: 300px;
+    padding: 5px;
+}
+div.hipervinculo a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}

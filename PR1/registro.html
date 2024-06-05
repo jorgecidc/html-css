@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jorge Cid Cano">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/registro.css">
+</head>
+<body>
+    <form action="https://forms.antonioberrocal.repl.co/" method="post" autocomplete="off">
+
+        <div>
+            <label for="dni">Usuario (<abbr title="Documento Nacional de Identidad">DNI</abbr> sin letra)</label>
+            <input type="number" name="dni" min="10000" max="99999999" placeholder="DNI sin letra" required>
+        </div>
+
+        <div>
+            <label for="password">Contraseña</label>
+            <input type="text" name="password" id="password" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" title="La contraseña tendrá un mínimo de 8 caracteres, incluido 1 mayúscula, 1 minúscula, 1 número o carácter especial." placeholder="Contraseña" required> 
+        </div>
+
+        <div>
+            <label for="passwordRep">Repetir contraseña</label>
+            <input type="text" name="passwordRep" id="passwordRep" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" title="La contraseña tendrá un mínimo de 8 caracteres, incluido 1 mayúscula, 1 minúscula, 1 número o carácter especial." placeholder="Contraseña" required> 
+        </div>
+
+        <input type="submit" value="Alta">
+    </form>
+</body>
+</html>

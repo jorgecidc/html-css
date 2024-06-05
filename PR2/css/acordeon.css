@@ -1,0 +1,25 @@
+.container{
+    width: 400px;
+    height: max-content;
+    border: 1px black solid;
+    margin: auto;
+}
+.container div h2{
+    background:linear-gradient(#eee, #ccc);
+    border: black 2px solid;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.container div p{
+    max-height: 0;
+    font-size: 0;
+    transition: max-height 0.7s ease-out, padding 0.7s ease-in;
+}
+.container div h2:hover ~ p{
+    max-height: 1000px;
+    font-size: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+    

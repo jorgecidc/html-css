@@ -1,0 +1,28 @@
+<!DOCTYPE productos_tienda SYSTEM "productos.dtd">
+<productos_tienda>
+    <producto nombre="coca cola">
+        <cantidad>100</cantidad>
+        <precio>2</precio>
+        <maxima_ganancia>200</maxima_ganancia>
+    </producto>
+    <producto nombre="pepsi">
+        <cantidad>50</cantidad>
+        <precio>1.5</precio>
+        <maxima_ganancia>75</maxima_ganancia>
+    </producto>
+    <producto nombre="fanta">
+        <cantidad>25</cantidad>
+        <precio>2</precio>
+        <maxima_ganancia>52</maxima_ganancia>
+    </producto>
+    <producto nombre="mirinda">
+        <cantidad>56</cantidad>
+        <precio>3</precio>
+        <maxima_ganancia>168</maxima_ganancia>
+    </producto>
+    <producto nombre="sprite">
+        <cantidad>203</cantidad>
+        <precio>2</precio>
+        <maxima_ganancia>406</maxima_ganancia>
+    </producto>
+</productos_tienda>

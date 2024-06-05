@@ -1,0 +1,170 @@
+.mapa {
+    position: fixed;
+    background-color: black;
+    border: 2px dashed grey;
+    width: 400px;
+    height: 450px;
+    transform: rotate(40deg);
+    bottom: -450px;
+    right: -290px;
+    padding: 20px;
+    transition: 0.1s;
+}
+
+.mapa .texto {
+    color: black;
+    text-align: center;
+    line-height: 1.5rem;
+    padding: 0 10px;
+}
+
+.mapa .mapaIframe iframe {
+    position: absolute;
+    display: block;
+    width: 415px;
+    height: 310px;
+    right: 10px;
+    bottom: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 grey;
+}
+
+#acerca:target .mapa {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    background-color: white;
+    border: none;
+    width: 400px;
+    height: 450px;
+    transform: rotate(360deg);
+    transform: translate(50%, -50%);
+    transition: 0.2s;
+}
+
+.mapa .icono {
+    position: absolute;
+    color: white;
+    top: 122px;
+    left: 9px;
+    transform: rotate(-40deg);
+}
+
+.mapa .icono a {
+    color: white;
+}
+
+.mapa .icono2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.mapa .icono2 a {
+    color: black;
+}
+
+body {
+    overflow: hidden;
+}
+.video video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(205, 149, 87, 0.5);
+  }
+
+.bandera {
+    position: relative;
+    background-color: black;
+    color: white;
+    width: max-content;
+    height: max-content;
+    top: 15px;
+    left: 170px;
+    transform: skewX(-8deg);
+    z-index: 10;
+    box-shadow: 0 0 5px 2px white;
+}
+
+.bandera h1 {
+    background-color: green;
+    color: white;
+    margin-bottom: 0;
+    padding: 0 20px;
+    text-align: center;
+    animation: aparicion1 3s forwards;
+    font-size: 50px;
+}
+
+.bandera div:nth-of-type(2) {
+    text-align: center;
+    padding: 15px 15px;
+    animation: aparicion2 3s forwards;
+}
+
+.bandera> div> a {
+    text-decoration: none;
+    color: white;
+}
+
+.bandera .linea {
+    background-color: white;
+    width: 100%;
+    height: 5px;
+    padding-top: 0;
+    animation: aparicion1 3s;
+}
+
+.bandera:hover ~ .video .video-overlay {
+    left: 200%;
+    transition: opacity 2s, left 6s ease-out;
+    opacity: 0;
+}
+
+@keyframes aparicion1{
+    0% {
+        transform: translateX(-1000px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes aparicion2 {
+    0% {
+        transform: translateX(1000px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .bandera {
+        width: 80%;
+        min-width: 375px;
+        margin: 30px auto auto 50px;
+    }
+    .bandera h1 {
+        font-size: 50px;
+    }
+}

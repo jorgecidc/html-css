@@ -1,0 +1,30 @@
+div p { /*todos los p que estan dentro de los div*/
+    color: red;
+}
+
+div>p{ /* el p que es hijo de un div */
+    color: blue;
+}
+
+body>p{ /*el p es hijo de un body*/
+    color: green;
+}
+
+div>div>p{/*p hijo de div e hijo de div*/
+    color: violet;
+}
+
+body>div>p{ /*los parrafos que son hijos de div e hijos de body*/
+    color: brown;
+}
+
+div + p{ /*el parrafo que venga despues de un div*/
+    color: red;
+}
+
+div + div p{ /*todos los parrafos que sean desdendientes de un div que vengan despues de un div*/
+    color: black;
+}
+h2 ~ p{ /*el parrafo que viene despues del h2 y que esta en el mismo nivel (que es su hermano)*/
+    color: yellow;
+}

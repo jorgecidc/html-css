@@ -1,0 +1,159 @@
+@media print{/*Para que se vea todo negro cuando imprimes*/
+    *{
+        color: black;
+    }
+    a:not([href^="#"]):after{
+        content: "[" attr(href)"]";
+    }
+}
+/*abbr[title]::after{
+    content: "(" attr(title) ")";
+    background-color: black;
+    color: red;
+}*//*Esto sirve para poner la explicacion de la abbr despues de la abbr*/
+
+@media screen { /*Para que se vea asi en pantalla*/
+
+
+
+    /*
+A
+Los hipervínculos internos no visitados utilizarán el color hsla(158, 100%, 50%, 1)  y rgb(77, 183, 101)  los que hayan sido visitados.*/
+    a[href^="#"]:link {
+        color: hsla(158, 100%, 50%, 1);
+    }
+
+    a[href^="#"]:visited {
+        color: rgb(77, 183, 101);
+    }
+
+    /*
+B
+Los hipervínculos no visitados que se abren en una ventana nueva (_blank) se mostrarán de color #db7f55 y hsl(136, 53%, 20%) cuando hayan sido visitado.*/
+    a[target="_blank"]:link {
+        color: #db7f55;
+    }
+
+    a[target="_blank"]:visited {
+        color: hsl(136, 53%, 20%);
+    }
+
+    /*
+C
+Los hipervínculos a ficheros pdf aparecerán con fondo hsl(356, 53%, 55%)*/
+    a[href$="pdf" i] {
+        color: hsl(356, 53%, 55%);
+    }
+
+    /*
+D
+Al pasar por encima con el ratón sobre cualquier hipervínculo aparecerá como  color de fondo #bbafed*/
+    a:hover {
+        background-color: #bbafed;
+    }
+
+    /*
+E
+La primera inicial de los párrafos pares aparecerá en color rojo (red).*/
+    p:nth-of-type(2n)::first-letter {
+        color: red;
+    }
+
+    /*
+F
+Los elementos impares de las listas ordenadas aparecerán con color de fondo #eae8e8 */
+    ol>li:nth-of-type(2n + 1) {
+        background-color: #eae8e8;
+    }
+
+    /*
+G
+El primer elemento de las listas no ordenadas aparecerán con fondo verde, el penúltimo con fondo rosa y el último con fondo marrón.*/
+    ul>li:first-child {
+        background-color: green;
+    }
+
+    ul>li:nth-last-child(2) {
+        background-color: pink;
+    }
+
+    ul>li:last-child {
+        background-color: brown;
+    }
+
+    /*
+H
+La primera línea del párrafo que vaya precedido de un título h1, h2 o h3 aparecerá en color rgb(52, 155, 136). Utiliza :is o :where. Nota: :where siempre tiene especificidad de 0, :is tiene especificidad del mayor de los selectores contenidos, compruébalo en VSCode, poniendo el ratón sobre el selector en la regla.*/
+    h1+p::first-line,
+    h2+p::first-line,
+    h3+p::first-line {
+        color: rgb(52, 155, 136);
+    }
+
+    /*:is(h1,h2,h3)+p::first-line{ Esto es lo mismo que lo de arriba, vale para lo mismo
+    color: rgb(52, 155, 136);
+}*/
+
+    /*
+I
+Las listas contenidas en otras listas aparecerán con fondo rgb(149, 244, 208) y un nivel de transparencia del 50%. Utiliza :is o :where.*/
+    :is(ol, ul, dl) :is(ol, ul, dl) {
+        color: rgba(149, 244, 208, 0.5);
+    }
+
+    /*
+J
+Los párrafos pertenecientes a la clase tecnico tendrán el color de fondo #99a49c, los de la clase iyc  el color #cdebd5 y los que pertenezcan a ambas clases el color de fondo #3cd367*/
+
+    p.tecnico {
+        background-color: #99a49c;
+    }
+
+    p.iyc {
+        background-color: #cdebd5;
+    }
+
+    p.tecnico.iyc {
+        /*El . es un and, es igual que &&*/
+        background-color: #3cd367;
+    }
+
+    /*
+K
+Los hipervínculos que utilicen rutas que empiezan con HTTPS, escrito en mayúsculas o minúsculas, saldrán con fondo sandybrown.*/
+    a[href^="https" i] {
+        background-color: sandybrown;
+    }
+
+    /*
+L
+Todos los elementos de la listas no ordenadas que sean “hijas” de un div, a excepción de los que pertenezcan a la clase diferente y el cuarto y el sexto tendrán como color de texto verde y fondo azul. Utiliza :not()*/
+    div>ul>li:not(.diferente, :nth-child(4), :nth-child(6)) {
+        background-color: blue;
+        color: green;
+    }
+
+    /*
+M
+Al pasar el ratón por cualquier parte de una sección (section) se mostrará con color de fondo hsl(203, 65%, 59%) los elementos descendientes que pertenezcan  a la clase IyC. Marca esta regla como !important ¿es necesario?*/
+    section:hover .iyc {
+        /*!important es necesario cuando existe un empate en puntos y quieres que se aplique este*/
+        background-color: hsl(203, 65%, 59%);
+    }
+
+    /*
+N
+El primer hijo h1 o h2 de un destino activo  a un section de un  hipervínculo interno (es el que ha sido pulsado y aparece en la URL que ha cargado el navegador) aparecerá con un color de fondo rosa. Utiliza la pseudoclase :target Ayuda en: CSS :target Selector*/
+    section:target :is(h1:first-of-type, h2:first-of-type) {
+        background-color: pink;
+    }
+
+    /*
+O HACER EN CASA
+El texto seleccionado por un usuario y que esté en un párrafo saldrá con fondo hsl(100, 44%, 52%). Nota: utiliza ::selection, puedes ver más información https://developer.mozilla.org/es/docs/Web/CSS/::selection ¿a qué especificación pertenece?*/
+
+    p::selection {
+        background-color: hsl(100, 44%, 52%);
+    }
+
+}

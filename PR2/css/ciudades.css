@@ -1,0 +1,15 @@
+.ciudades {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+li {
+    padding: 10px;
+    border-right: 1px solid #ccc;
+    display: inline-block;
+}
+
+li:last-child:not(:only-child) {
+    border-right: none;
+}

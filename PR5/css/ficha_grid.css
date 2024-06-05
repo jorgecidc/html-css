@@ -1,0 +1,128 @@
+/*
+Basado en https://codepen.io/LandonSchropp/pen/KpzzGo/?editors=1100 
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+.fichas:not(.domino) > .ficha {
+  background-color: #e7e7e7;
+  box-shadow: inset 0 5px white, inset 0 -5px #bbb, inset 5px 0 #d7d7d7,
+    inset -5px 0 #d7d7d7;
+  border-radius: 10%;
+
+}
+.ficha{
+  min-height: calc(var(--tamano-circulo) * 3 + 4px * 6 + 5px * 2);
+  min-width: calc(var(--tamano-circulo) * 3 + 4px * 6 + 5px * 2); 
+  padding: 5px;
+}
+
+.ficha .cara {
+  padding: 4px;
+}
+
+.ficha .cara > div,
+.container.ficha>div {
+  width: var(--tamano-circulo);
+  height: var(--tamano-circulo);
+  margin: 4px;
+  border-radius: 50%;
+  background-color: #333;
+  box-shadow: inset 0 3px #111, inset 0 -3px #555;
+}
+
+/* CON HERRAMIENTA */
+.container {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-auto-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "a b c"
+    "d e f"
+    "g h i";
+}
+
+.a { grid-area: a; }
+
+.b { grid-area: b; }
+
+.c { grid-area: c; }
+
+.d { grid-area: d; }
+
+.f { grid-area: f; }
+
+.g { grid-area: g; }
+
+.h { grid-area: h; }
+
+.i { grid-area: i; }
+
+.e { grid-area: e; }
+
+/* FIN HERRAMIENTA */
+.fichas{
+  --tamano-circulo: 24px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  align-items: center;
+}
+
+.fichas.domino > div{
+  box-shadow: inset 0 5px white, inset 0 -5px #bbb, inset 5px 0 #d7d7d7,
+    inset -5px 0 #d7d7d7;
+  border-radius: 10%;
+  background-color: #e7e7e7;
+}
+
+.fichas.domino > div > hr{
+  border: 2px inset grey;
+  width: 90%;
+  margin: 0 auto;
+}
+body {
+  margin: 0;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;  
+  flex-direction: row; 
+  flex-wrap: wrap;
+  padding: 5px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  background-color: #e7e7e7;
+  box-shadow: inset 0 5px white, inset 0 -5px #bbb, inset 5px 0 #d7d7d7,
+  inset -5px 0 #d7d7d7;
+  list-style: none;
+  display: inline-block;
+  flex-grow: 1;
+  text-align: center;
+  padding: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  display: block;
+}
+html{
+  scroll-behavior: smooth;
+}

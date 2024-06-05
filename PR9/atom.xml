@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+   <id>https://lmsgi.iesvjp.es/b2p4-vjp-jorgeCC/</id>
+   <updated>2022-12-21T15:35:43+00:00</updated>
+   <title type="text">Bloque 2 - Práctica 4 - jorgeCC</title>
+   <subtitle type="text">Curso 2022/2023</subtitle>
+   <link href="https://lmsgi.iesvjp.es/b2p4-vjp-jorgeCC/" />
+   <author>
+       <name>Jorge Cid Cano</name>
+       <email>jcidc07@informatica.iesvalledeljerteplasencia.es</email>
+   </author>
+   <link href="https://lmsgi.iesvjp.es/b3p1-vjp-jorgeCC/atom.xml" rel="self" type="application/atom+xml" />
+   <entry>
+       <id>https://lmsgi.iesvjp.es/b2p4-vjp-jorgeCC/listas.html</id>
+       <updated>2022-12-21T15:35:43+00:00</updated>
+       <title type="text">Ejercicio - Listas HTML</title>
+       <link href="https://lmsgi.iesvjp.es/b2p4-vjp-jorgeCC/listas.html" />
+       <author>
+           <name>Jorge Cid Cano</name>
+           <email>jcidc07@informatica.iesvalledeljerteplasencia.es</email>
+       </author>
+       <summary>Ejemplos de listas HTML</summary>
+       <content type="html"><![CDATA[
+           Ejemplos de listas <dl></dl>, <ol></ol> y <ul></ul>
+       ]]></content>
+       <media:content url="http://lmsgi.iesvjp.es/b2p4-vjp-jorgeCC/img/listas.jpg" medium="image"></media:content>
+ 
+   </entry>
+   <entry>
+        <id>https://lmsgi.iesvjp.es/b2p4-vjp-jorgeCC/horario.html</id>
+        <updated>2022-12-21T15:35:43+00:00</updated>
+        <title type="text">Ejercicio - Listas HTML</title>
+        <link href="https://lmsgi.iesvjp.es/b2p4-vjp-jorgeCC/horario.html" />
+        <author>
+            <name>Jorge Cid Cano</name>
+            <email>jcidc07@informatica.iesvalledeljerteplasencia.es</email>
+        </author>
+        <summary>Ejemplos de listas HTML</summary>
+        <content type="html"><![CDATA[
+        Ejemplos de <table>
+        ]]></content>
+    </entry>
+    <entry>
+        <id>https://lmsgi.iesvjp.es/b2p4-vjp-jorgeCC/tabla_imagenes.html</id>
+        <updated>2022-12-21T15:35:43+00:00</updated>
+        <title type="text">Ejercicio - Tabla Con Imagenes HTML</title>
+        <link href="https://lmsgi.iesvjp.es/b2p4-vjp-jorgeCC/tabla_imagenes.html" />
+        <author>
+            <name>Jorge Cid Cano</name>
+            <email>jcidc07@informatica.iesvalledeljerteplasencia.es</email>
+        </author>
+        <summary>Ejemplos de Tablas Con Imagenes HTML</summary>
+        <content type="html"><![CDATA[
+        Ejemplos de <table> e imagenes
+        ]]></content>
+    </entry>
+    <entry>
+        <id>https://lmsgi.iesvjp.es/b2p4-vjp-jorgeCC/tablaperiodica.html</id>
+        <updated>2022-12-21T15:35:43+00:00</updated>
+        <title type="text">Ejercicio - Tabla Periodica HTML</title>
+        <link href="https://lmsgi.iesvjp.es/b2p4-vjp-jorgeCC/tablaperiodica.html" />
+        <author>
+            <name>Jorge Cid Cano</name>
+            <email>jcidc07@informatica.iesvalledeljerteplasencia.es</email>
+        </author>
+        <summary>Ejemplos de Tabla Periodica HTML</summary>
+        <content type="html"><![CDATA[
+        Ejemplos de hacer una tabla periodica con  <table>
+        ]]></content>
+    </entry>
+    <entry>
+        <id>https://lmsgi.iesvjp.es/b2p4-vjp-jorgeCC/mulitmedia.html</id>
+        <updated>2022-12-21T15:35:43+00:00</updated>
+        <title type="text">Ejercicio - Multimedia HTML</title>
+        <link href="https://lmsgi.iesvjp.es/b2p4-vjp-jorgeCC/multimedia.html" />
+        <author>
+            <name>Jorge Cid Cano</name>
+            <email>jcidc07@informatica.iesvalledeljerteplasencia.es</email>
+        </author>
+        <summary>Ejemplos de Videos en HTML</summary>
+        <content type="html"><![CDATA[
+        Ejemplos de agregar videos en html
+        ]]></content>
+    </entry>
+    <entry>
+        <id>https://lmsgi.iesvjp.es/b2p4-vjp-jorgeCC/tablas_V2.html</id>
+        <updated>2022-12-21T15:35:43+00:00</updated>
+        <title type="text">Ejercicio -Tablas_V2 HTML</title>
+        <link href="https://lmsgi.iesvjp.es/b2p4-vjp-jorgeCC/tablas_V2.html" />
+        <author>
+            <name>Jorge Cid Cano</name>
+            <email>jcidc07@informatica.iesvalledeljerteplasencia.es</email>
+        </author>
+        <summary>Ejemplos de Tablas Modificadas</summary>
+        <content type="html"><![CDATA[
+        Modificacion del ejercicio de las tablas
+        ]]></content>
+    </entry>
+</feed>

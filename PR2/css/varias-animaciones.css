@@ -1,0 +1,128 @@
+/* A: Cuadrado de 10px que gira y se desplaza girando en horizontal desde un extremo hasta el otro, de forma indefinida, con retorno, y cambiando de color sin llegar a desaparecer. Utiliza dos animaciones, una en la que rotas y cambias de color (0.5s de duración) y otra en la que lo mueves (5s de duración).*/
+div.a>div{
+    border: 2px solid black;
+}
+div.a > div > div.caja_colores{
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    animation: cambio_color, mover;
+    animation-duration: 3s, 5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal, alternate;
+    position: relative;
+    animation-timing-function: linear;
+}
+
+@keyframes cambio_color{
+    0%{
+        background-color: red;
+        transform: rotate(0);
+    }
+    25%{
+        background-color: blue;
+        transform: rotate(45deg);
+    }
+    100%{
+        background-color: green;
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes mover{
+    0%{
+        left: 0;
+    }
+    100%{
+        left: calc(100% - 30px);
+    }
+}
+
+/* B: Círculo sin relleno que aparece y desaparece, sin mover el resto de elementos de la página. Utiliza la función scale. */
+
+div.b > div{
+    border-radius: 50%;
+    border: blue solid 4px;
+    width: 50px;
+    height: 50px;
+    animation: circulo 1s alternate infinite;
+}
+@keyframes circulo {
+    0%{
+        transform: scale(0);
+        border-color: red;
+    }
+    100%{
+        transform: scale(1);
+        border-color: blue;
+    }
+}
+
+/* C */
+div.c .contenido{
+    border: 2px solid red;
+    width: max-content;
+    padding: 10px;
+    display: none;
+}
+div.c .fa-minus{
+    display: none;
+}
+div.c #wrapperIcono:hover .contenido{
+    display: block;
+}
+div.c #wrapperIcono:hover .fa-plus{
+    display: none;
+}
+div.c #wrapperIcono:hover .fa-minus{
+    display: inline-block;
+}
+div.c #wrapperIcono{
+    width: max-content;
+}
+
+/* D */
+div.d .contenido{
+    border: 2px solid red;
+    width: max-content;
+    padding: 10px;
+
+    display: none;
+
+    position: absolute; /* Añado esta linea para el d*/
+
+    background-color: white; /* Añado esta linea para el d*/
+}
+div.d .fa-minus{
+    display: none;
+}
+div.d #wrapperIcono:hover .contenido{
+    display: block;
+}
+div.d #wrapperIcono:hover .fa-plus{
+    display: none;
+}
+div.d #wrapperIcono:hover .fa-minus{
+    display: inline-block;
+}
+div.d #wrapperIcono{
+    width: max-content;
+}
+
+/* E */
+div.e  span[data-descr]{
+    text-decoration: underline dotted;
+    position: relative;
+}
+div.e span[data-descr]:hover::after{
+    content: attr(data-descr);
+    display: block;
+    position: absolute;
+    border: 1px solid yellow;
+    background-color: rgb(240, 240, 94);
+    padding: 10px;
+    border-radius: 10px;
+    z-index: 10;
+    left: 0;
+    top: 20px;
+}

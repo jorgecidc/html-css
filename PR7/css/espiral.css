@@ -1,0 +1,9 @@
+th, td{
+    border: 3px solid grey;
+    width: 100px;
+}
+body{
+    background-image: url(../img/espiral.gif);
+    background-repeat: repeat-y;
+    margin-left: 60px;
+}

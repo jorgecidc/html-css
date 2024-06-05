@@ -1,0 +1,26 @@
+iframe{
+    height: 100vh;
+    width: 100vw;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid green;
+}
+nav ul li{
+    list-style: none;
+}
+
+nav ul{
+    position: absolute;
+    background-color: black;
+    top: -175px;
+    left: -290px;
+    transform: rotate(309deg);
+    transition: all 2s;
+}
+nav ul:hover{
+    top: 0px;
+    left: 0px;
+    transform: rotate(0deg);
+}

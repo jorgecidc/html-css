@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+   xmlns:media="http://search.yahoo.com/mrss/"
+   xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+       <title>Bloque 2 - Práctica 4 - JorgeCC</title>
+       <link>https://lmsgi.iesvjp.es/b2p4-vjp-jorgeCC/</link>
+       <description>Introducción a HTML5, listas, tablas, vídeo y audio</description>
+       <atom:link href="https://lmsgi.iesvjp.es/b3p1-vjp-jorgeCC/rss.xml" rel="self" type="application/rss+xml" />
+       <pubDate>Wed, 21 Dec 22 15:23:15 +0000</pubDate>
+       <item>
+           <guid isPermaLink="true">https://lmsgi.iesvjp.es/b2p4-vjp-jorgeCC/listas.html</guid>
+           <title>Ejercicio 1 - Listas HTML</title>
+           <link>https://lmsgi.iesvjp.es/b2p4-vjp-jorgeCC/listas.html</link>
+           <description><![CDATA[Ejemplos de listas <dl></dl>, <ol></ol> y <ul></ul>]]></description>
+           <pubDate>Wed, 21 Dec 22 15:23:15 +0000</pubDate>
+           <media:content url="https://lmsgi.iesvjp.es/b2p4-vjp-jorgeCC/img/listas.jpg" medium="image"></media:content>
+       </item>
+       <item>
+            <guid isPermaLink="true">https://lmsgi.iesvjp.es/b2p4-vjp-jorgeCC/horario.html</guid>
+            <title>Ejercicio  - Horario HTML</title>
+            <link>https://lmsgi.iesvjp.es/b2p4-vjp-jorgeCC/horario.html</link>
+            <description><![CDATA[Ejemplos de <table>]]></description>
+            <pubDate>Wed, 21 Dec 22 15:23:15 +0000</pubDate>
+        </item>
+        <item>
+            <guid isPermaLink="true">https://lmsgi.iesvjp.es/b2p4-vjp-jorgeCC/tabla_imagenes.html</guid>
+            <title>Ejercicio - Tabla Con Imagenes HTML</title>
+            <link>https://lmsgi.iesvjp.es/b2p4-vjp-jorgeCC/tabla_imagenes.html</link>
+            <description><![CDATA[Ejemplos de <table> e imagenes]]></description>
+            <pubDate>Wed, 21 Dec 22 15:23:15 +0000</pubDate>
+        </item>
+        <item>
+            <guid isPermaLink="true">https://lmsgi.iesvjp.es/b2p4-vjp-jorgeCC/tablaperiodica.html</guid>
+            <title>Ejercicio  - Tabla periodia HTML</title>
+            <link>https://lmsgi.iesvjp.es/b2p4-vjp-jorgeCC/tablaperiodica.html</link>
+            <description><![CDATA[Ejemplos de hacer una tabla periodica con <table>]]></description>
+            <pubDate>Wed, 21 Dec 22 15:23:15 +0000</pubDate>
+        </item>
+        <item>
+            <guid isPermaLink="true">https://lmsgi.iesvjp.es/b2p4-vjp-jorgeCC/multimedia.html</guid>
+            <title>Ejercicio  - Multimedia HTML</title>
+            <link>https://lmsgi.iesvjp.es/b2p4-vjp-jorgeCC/multimedia.html</link>
+            <description><![CDATA[Ejemplos de agregar videos en html]]></description>
+            <pubDate>Wed, 21 Dec 22 15:23:15 +0000</pubDate>
+        </item>
+        <item>
+            <guid isPermaLink="true">https://lmsgi.iesvjp.es/b2p4-vjp-jorgeCC/tablas_V2.html</guid>
+            <title>Ejercicio  - Tablas_V2 HTML</title>
+            <link>https://lmsgi.iesvjp.es/b2p4-vjp-jorgeCC/tablas_V2.html</link>
+            <description><![CDATA[Modificacion del ejercicio de las tablas]]></description>
+            <pubDate>Wed, 21 Dec 22 15:23:15 +0000</pubDate>
+        </item>
+   </channel>
+</rss>

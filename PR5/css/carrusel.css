@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+    Al estar basado en target mejor utilizar id para asegurar que solo se utiliza 
+    una vez por página
+*/
+#galeria {
+    --ancho-galeria: 500px;
+    --alto-galeria: 500px;
+    --ancho-botones: min(50px, calc(var(--ancho-galeria) / 5));
+    width: var(--ancho-galeria);
+}
+
+#galeria > div#carrusel {
+    width: var(--ancho-galeria);
+    height: var(--alto-galeria);
+    position: relative;
+}
+
+#galeria > #miniaturas {
+    /* Es importante para que no salgan espacios entre imágenes y para que el alto de 
+    #galeria incluya las miniaturas y no estén en overflow
+      */
+
+    /*solución con flex: 
+    
+    display: flex;
+    width: var(--ancho-galeria);
+    flex-wrap: wrap;
+    */
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);        
+}
+#galeria > #miniaturas  a  {
+    display:block;
+}
+
+#galeria > #miniaturas  img {
+    width: calc(var(--ancho-galeria) / 5);
+    float: left;
+    /* Para evitar hueco entre las filas, es debido al espacio que aparece entre las imágenes. */
+}
+
+#galeria figure {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#galeria figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#galeria figure:not(:target) {
+    display: none;
+}
+
+#galeria figure:nth-child(1) {
+    display: block !important;
+    z-index: 10;
+}
+
+#galeria figure :is(.anterior, .siguiente) a {
+    width: var(--ancho-botones);
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-size: var(--ancho-botones);
+}
+
+#galeria figure .anterior a {
+    left: 0;
+}
+
+#galeria figure .siguiente a {
+    right: 0;
+}
+
+#galeria figure:target {
+    z-index: 100;
+}

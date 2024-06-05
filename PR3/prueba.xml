@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="prueba.xsd"?>
+<example_schema>
+  <line id="745">
+    <code>1234</code>
+    <gard>
+      <firstname>Jorge</firstname>
+      <lastname>Cid</lastname>
+      <address>C/canada real, 10</address>
+      <city>Plasencia</city>
+      <country>España</country>
+    </gard>
+    <length unit_of_length="str1234">1234</length>
+    <count_vehicles></count_vehicles>
+    <car>Audi</car>
+    <map>1234</map>
+    <start_station id="745">
+      <name>1234</name>
+    </start_station>
+    <end_station id="745">
+      <name>1234</name>
+    </end_station>
+    <intermediate_stations id="745">
+      <name>1234</name>
+    </intermediate_stations>
+    <vehicles_line id="745">
+      <name>1234</name>
+      <capacity>4</capacity>
+      <driver id="745"  lang="str1234">
+        <person>
+          <firstname>Ignacio</firstname>
+          <lastname>Ormaeche</lastname>
+          <Address>
+            <Line1>C/ de la constitucion</Line1>
+            <Line2>Plasencia</Line2>
+          </Address>
+        </person>
+        <birth_date>1997-12-13</birth_date>
+        <email>nacho@gmail.es</email>
+        <phone>123456714</phone>
+        <avatar>Nacho</avatar>
+      </driver>
+      <mechanic> 
+        <employee>Pedro</employee>
+      </mechanic>
+      <age>24</age>
+    </vehicles_line>
+    <person>
+      <firstname>Ernesto</firstname>
+      <lastname>Gomez</lastname>
+      <Address>
+        <Line1>C/ ErnestoGomez, 4, 5.C</Line1>
+        <Line2>Plasencia</Line2>
+      </Address>
+    </person>
+  </line>
+  <Customer>
+    <Dob>2000-06-01</Dob>
+    <Address>
+      <Line1>C/ del sol 1º, 2</Line1>
+      <Line2>Plasencia</Line2>
+    </Address>
+    <Message>
+      <DateSent>2015-11-18</DateSent>
+      <Sender>1234</Sender>
+      <Content />
+    </Message>
+  </Customer>
+  <Supplier>
+    <Phone>66666666</Phone>
+    <Address>
+      <Line1>C/ Federico Garcia, 12</Line1>
+      <Line2>Plasencia</Line2>
+    </Address>
+  </Supplier>
+</example_schema>

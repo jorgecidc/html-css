@@ -1,0 +1,46 @@
+table.tabla1 th:nth-child(2n+1){
+    background-color: grey;
+}
+table.tabla1 th:nth-child(2n+2){
+    background-color: darkgrey;
+}
+table.tabla1 tr:nth-child(2n+1){
+    background-color: rgb(60, 212, 162);
+}
+table.tabla1 tr:nth-child(2n+2){
+    background-color: aqua;
+}
+table.tabla1 tr:hover{
+    background-color: violet ;
+}
+/* INDICE */
+h2{
+    text-align: center;
+    background-image: url(./../img/indice-gif-4.gif);
+    background-size: 75px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+nav.indice1 li:nth-child(2n+1){
+    background-color: grey;
+}
+nav.indice1 li:nth-child(2n+2){
+    background-color: darkgray;
+}
+
+nav.indice1 a:hover{
+    background-color: violet;
+}
+
+nav.indice1 a:visited{
+    background-color: green;
+}
+nav.indice1 ol{
+    list-style-type: lower-greek;
+    list-style-position: inside;
+    width: max-content;
+    margin: auto;
+}
+nav.indice1 a:hover{
+    text-transform: uppercase;
+}

@@ -1,0 +1,12 @@
+p{
+    color: red;
+}
+#pconcreto {
+    color: blue;
+}
+.impar{
+    color:green;
+}
+[title^="Da" i] {
+    color:yellow;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE existencias SYSTEM "existenciasV1.dtd">
+<existencias>
+    <fecha>
+        <dia>14</dia>
+        <mes>10</mes>
+        <anno>2022</anno>  
+    </fecha>
+    
+    <hora>17:00</hora>
+
+    <producto>
+         <sku>00651</sku>
+         <nombre>produdcto 1</nombre>
+         <stock>
+            <actual>234</actual>
+            <minimo>2</minimo>
+            <maximo>500</maximo>
+         </stock>
+    </producto>
+
+    <producto>
+        <sku>00652</sku>
+        <nombre>producto 2</nombre>
+        <stock>
+            <actual>256</actual>
+            <minimo>6</minimo>
+            <maximo>500</maximo>
+         </stock>
+   </producto>
+
+   <producto>
+        <sku>00653</sku>
+        <nombre>producto 3</nombre>
+        <stock>
+            <actual>567</actual>
+            <minimo>100</minimo>
+            <maximo>800</maximo>
+     </stock>
+</producto>
+
+</existencias>  

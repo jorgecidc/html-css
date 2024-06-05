@@ -1,0 +1,30 @@
+table.tabla1 th:nth-child(2n+1){
+    background-color: grey;
+}
+table.tabla1 th:nth-child(2n+2){
+    background-color: darkgrey;
+}
+table.tabla1 tr:nth-child(2n+1){
+    background-color: rgb(60, 212, 162);
+}
+table.tabla1 tr:nth-child(2n+2){
+    background-color: aqua;
+}
+table.tabla1 tr:hover{
+    background-color: violet ;
+}
+
+nav.indice1 li:nth-child(2n+1){
+    background-color: grey;
+}
+nav.indice1 li:nth-child(2n+2){
+    background-color: darkgray;
+}
+
+nav.indice1 a:hover{
+    background-color: violet;
+}
+
+nav.indice1 a:visited{
+    background-color: green;
+}

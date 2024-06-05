@@ -1,0 +1,8 @@
+<!ELEMENT persona (nombre,apellidos,fecha-de-nacimiento,ciudad)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT fecha-de-nacimiento (dia,mes,anno)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT anno (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>

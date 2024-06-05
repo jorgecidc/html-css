@@ -1,0 +1,13 @@
+<!ELEMENT existencias (producto+)>
+<!ATTLIST existencias hora NMTOKEN #REQUIRED>
+<!ATTLIST existencias dia NMTOKEN #REQUIRED>
+<!ATTLIST existencias mes NMTOKEN #REQUIRED>
+<!ATTLIST existencias anno NMTOKEN #REQUIRED>
+<!ELEMENT producto (stock)>
+<!ATTLIST producto id NMTOKEN #REQUIRED>
+<!ATTLIST producto sku NMTOKEN #REQUIRED>
+<!ATTLIST producto nombre CDATA #REQUIRED>
+<!ELEMENT stock EMPTY>
+<!ATTLIST stock actual NMTOKEN #REQUIRED>
+<!ATTLIST stock minimo NMTOKEN #REQUIRED>
+<!ATTLIST stock maximo NMTOKEN #REQUIRED>

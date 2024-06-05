@@ -1,0 +1,16 @@
+<!DOCTYPE existencias SYSTEM "existenciasV2.dtd">
+<existencias hora="17:16" dia="14" mes="10" anno="2022">
+    
+    <producto id="1" sku="00651" nombre="producto1">         
+         <stock actual="234" minimo="2" maximo="500"></stock>
+    </producto>
+
+    <producto id="2" sku="00652" nombre="producto2">
+        <stock actual="256" minimo="6" maximo="500"></stock>
+    </producto>
+
+   <producto id="3" sku="00653" nombre="producto 3">
+        <stock actual="567" minimo="100" maximo="800"></stock>
+</producto>
+
+</existencias>  

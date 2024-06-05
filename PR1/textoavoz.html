@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texto a voz</title>
+    <style>
+        :valid{
+            border: 2px solid green;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="http://api.voicerss.org/" method="get" target="voz">
+        <input type="hidden" value="2b1f1a6c0aa54c7fb1f94bf39674060d" name="key">
+        <input type="hidden" value="es-es" name="hl">
+        <fieldset>
+            <legend>Convertir Texto a Voz</legend>
+            <div>
+                <input type="checkbox" name="b64" value="true" disabled>
+                <label for="b64">Base 64</label>
+                <input type="checkbox" name="ssml" value="false" disabled>
+                <label for="ssml"><abbr title="Speech Synthesis Markup Language">SSML</abbr></label>
+            </div>
+            <div>
+                <label for="v">Voz</label>
+                <select name="v" id="v">
+                    <option value="Camila">Camila (Female)</option>
+                    <option value="Sofia">Sofia (Female)</option>
+                    <option value="Luna">Luna (Female)</option>
+                    <option value="Diego">Diego (Male)</option>
+                </select>
+            </div>
+            <div>
+                <label for="c">Audio Codec</label>
+                <select name="c" id="c">
+                    <option value="MP3">MP3</option>
+                    <option value="WAV" selected>WAV</option>
+                    <option value="AAC">AAC</option>
+                    <option value="OGG">OGG</option>
+                    <option value="CAF">CAF</option>
+                </select>
+            </div>
+            <div>
+                <label for="r">Velocidad del habla</label>
+                <input type="range" value="0" min="-10" max="10" step="1" name="r">
+            </div>
+            <div>
+                <label for="f">Formato</label>
+                <input type="search" name="f" list="formatos">
+                <datalist id="formatos">
+                    <option label="8 kHz, 8 Bit, Mono" value="8khz_8bit_mono" />
+                    <option label="8 kHz, 8 Bit, Stereo" value="8khz_8bit_stereo" />
+                    <option label="8 kHz, 16 Bit, Mono" value="8khz_16bit_mono" />
+                </datalist>
+            </div>
+            <div>
+                <textarea name="src" id="src" cols="30" rows="10" minlength="5">Hola</textarea>
+            </div>
+            <div>
+                <input type="submit" value="Convertir (iframe)">
+                <input type="submit" value="Convertir (nueva vta)" formtarget="nuevavta">
+                <input type="reset" value="limpiar">
+            </div>
+        </fieldset>
+    </form>
+    <div>
+        <iframe src="" name="voz" frameborder="0"></iframe>
+    </div>
+</body>
+
+</html>

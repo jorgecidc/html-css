@@ -1,0 +1,11 @@
+<!DOCTYPE persona SYSTEM "personas.dtd">
+<persona>
+    <nombre>Elsa</nombre>
+    <apellidos>Zambrano</apellidos>
+    <fecha-de-nacimiento>
+            <dia>18</dia>
+            <mes>6</mes>
+            <anno>1996</anno>
+    </fecha-de-nacimiento>
+    <ciudad>Pamplona</ciudad>
+</persona>
